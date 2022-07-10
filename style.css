@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(156, 230, 248);
+}
+
+h1 {
+    margin-left: 640px;
+    margin-right: 500px;
+    margin-top: 90px;
+    font-size: 80px;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    margin-right: -300px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px 4px #888888;
+}
+
+div .grid {
+    outline: none;
+    float: left;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 150px;
+    padding: 8px 12px;
+    outline: 2px solid white;
+    color: white;
+    background-color: black; 
+    align-items: center;
+}
+
+.settings {
+    padding-left: 350px;
+    padding-top: 100px;
+}
+
+input {
+    font-size: 24px;
+    width: 60px;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: rgb(183, 221, 233);
+    transform: scale(1.05);
+}
