@@ -46,6 +46,7 @@ button {
 .settings {
     padding-left: 350px;
     padding-top: 100px;
+    column-gap: 10px;
 }
 
 input {
@@ -59,3 +60,6 @@ button:hover {
     background-color: rgb(183, 221, 233);
     transform: scale(1.05);
 }
+
+
+  
